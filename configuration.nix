@@ -163,6 +163,13 @@ in
           haskell.haskell
           github.copilot
           ms-azuretools.vscode-docker
+        ] ++ pkgs.vscode-utils.extensionsFromVscodeMarketplace [
+          {
+           name = "github-markdown-preview";
+           publisher = "bierner";
+           version = "0.3.0";
+           sha256 = "sha256-7pbl5OgvJ6S0mtZWsEyUzlg+lkUhdq3rkCCpLsvTm4g=";
+          }
         ];
       })
     ];
