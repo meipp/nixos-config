@@ -134,6 +134,7 @@ in
       rocketchat-desktop
       texlive.combined.scheme-full
       praat
+      blender
       todoist-electron
 
       vlc
