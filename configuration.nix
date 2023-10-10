@@ -229,6 +229,7 @@ in
     python3
     cargo
     sbt
+    nodejs_20
 
     # Haskell
     stack
