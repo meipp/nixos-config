@@ -172,6 +172,12 @@ in
            version = "0.3.0";
            sha256 = "sha256-7pbl5OgvJ6S0mtZWsEyUzlg+lkUhdq3rkCCpLsvTm4g=";
           }
+          {
+           name = "smt-lib-syntax";
+           publisher = "martinring";
+           version = "0.0.1";
+           sha256 = "sha256-Vmt1gFRai52WmmrqHZKxR0VbV4AdT0VtEX3p8eV7CNo=";
+          }
         ];
       })
     ];
