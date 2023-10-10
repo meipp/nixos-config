@@ -164,6 +164,7 @@ in
           haskell.haskell
           github.copilot
           ms-azuretools.vscode-docker
+          scala-lang.scala
         ] ++ pkgs.vscode-utils.extensionsFromVscodeMarketplace [
           {
            name = "github-markdown-preview";
@@ -221,6 +222,7 @@ in
     gcc
     python3
     cargo
+    sbt
 
     # Haskell
     stack
